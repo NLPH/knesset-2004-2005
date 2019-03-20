@@ -7,13 +7,13 @@ A corpus of transcriptions of Knesset (Israeli parliament) meetings between Janu
 Contents
 ========
 
-* ``kneset.tar.gz`` - An archive of raw text files (encoded using the ``windows-1255`` encoding), divided into two folders:
+* ``kneset.tar.gz`` - An archive of raw text files (encoded using the ``windows-1255`` encoding), which can be found in this repository, divided into two folders:
 
   * ``16`` - Contains 164 text files made up of 543,228 lines together.
   
   * ``17`` - Contains 118 text files made up of 324,497 lines together.
 
-* ``knesset_tagged_16.tar.gz`` - An archive of tokenized and morphologically tagged XML versions of all files in the ``16`` folder. The text are represented using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_.
+* ``knesset_tagged_16.tar.gz`` - An archive of tokenized and morphologically tagged XML versions of all files in the ``16`` folder. The text are represented using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_. The unarchived version of these files can be found in this repository, under the ``knesset_tagged`` folder.
 
 Use
 ===
