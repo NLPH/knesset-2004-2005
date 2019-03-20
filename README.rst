@@ -6,7 +6,7 @@ A corpus of transcriptions of Knesset (Israeli parliament) meetings between Janu
 
 
 Contents
-========
+--------
 
 * ``kneset.tar.gz`` - An archive of raw text files (encoded using the ``windows-1255`` encoding), which can be found in this repository, divided into two folders:
 
@@ -17,7 +17,7 @@ Contents
 * ``knesset_tagged_16.tar.gz`` - An archive of tokenized and morphologically tagged XML versions of all files in the ``16`` folder. The text are represented using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_. The unarchived version of these files can be found in this repository, under the ``knesset_tagged`` folder.
 
 Use
-===
+---
 
 Reading the raw text files requires using a software supporting the ``windows-1255`` encoding.
 
@@ -32,7 +32,7 @@ For example, you can process these files using Python with the following code:
     
     
 License
-=======
+-------
 
 All Knesset meeting protocols are in the `public domain <https://en.wikipedia.org/wiki/Public_domain>`_ (`רשות הציבור <https://he.wikipedia.org/wiki/%D7%A8%D7%A9%D7%95%D7%AA_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8>`_) by law. Thus this files are in the public doamin and do not require any license or public domain dedication to set their status.
   
