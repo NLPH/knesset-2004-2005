@@ -1,5 +1,6 @@
 Knesset Meetings 2004-2005
 ==========================
+|LICENCE|
 
 A corpus of transcriptions of Knesset (Israeli parliament) meetings between January 2004 and November 2005.
 
@@ -35,3 +36,5 @@ License
 
 All Knesset meeting protocols are in the `public domain <https://en.wikipedia.org/wiki/Public_domain>`_ (`רשות הציבור <https://he.wikipedia.org/wiki/%D7%A8%D7%A9%D7%95%D7%AA_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8>`_) by law. Thus this files are in the public doamin and do not require any license or public domain dedication to set their status.
   
+.. |LICENCE| image:: https://github.com/shaypal5/skift/blob/master/mit_license_badge.svg
+  :target: https://github.com/shaypal5/skift/blob/master/LICENSE
