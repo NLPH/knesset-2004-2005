@@ -10,19 +10,29 @@ Contents
 
 The Knesset Meetings Corpus 2004-2005 is made up of two components:
 
-* Raw texts - 282 files (encoded using the ``windows-1255`` encoding) made up of 867,725 lines together. These can be downloaded in two ways:
+* Raw texts - 282 files made up of 867,725 lines together. These can be downloaded in two formats:
 
-  * ``kneset.tar.gz`` - An archive of the raw text files, divided into two folders:
+  * As ``doc`` files, encoded using ``windows-1255`` encoding:
 
-    * ``16`` - Contains 164 text files made up of 543,228 lines together.
+    * ``kneset16.zip`` - Contains 164 text files made up of 543,228 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/docs/kneset16.zip>`_
   
-    * ``17`` - Contains 118 text files made up of 324,497 lines together.
- 
- * Each folder is also zipped separately into the ``kneset16.zip`` and the ``kneset17.zip`` files.
+    * ``kneset17.zip`` - Contains 118 text files made up of 324,497 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/docs/kneset17.zip>`_
+  
+  * As ``txt`` files, encoded using ``utf8`` encoding:
+
+    * ``kneset.tar.gz`` - An archive of all the raw text files, divided into two folders: `[NLPH mirror] <https://github.com/NLPH/knesset-2004-2005/blob/master/kneset.tar.gz>`_
+
+      * ``16`` - Contains 164 text files made up of 543,228 lines together.
+  
+      * ``17`` - Contains 118 text files made up of 324,497 lines together.
+    
+    * ``knesset_txt_16.tar.gz``- Contains 164 text files made up of 543,228 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/utf8/knesset_txt_16.tar.gz>`_
+    
+    * ``knesset_txt_17.zip`` - Contains 118 text files made up of 324,497 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/utf8/knesset_txt_17.zip>_`
  
 * Tokenized and morphologically tagged texts - Tagged versions exist only for the files in the ``16`` folder. The text are represented using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_. These can be downloaded in two ways:
 
-  * ``knesset_tagged_16.tar.gz`` - An archive of all tokenized and tagged files.
+  * ``knesset_tagged_16.tar.gz`` - An archive of all tokenized and tagged files. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/tagged/knesset_tagged_16.tar.gz>`_ `[Archive.org mirror] <https://archive.org/details/knesset_transcripts_2004_2005>`_
   
   * By cloning this repository, as the unarchived version of these files can be found in this repository, under the ``knesset_tagged`` folder.
 
