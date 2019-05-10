@@ -64,6 +64,8 @@ Mirrors
 -------
 
 This repository is a mirror of this dataset `found on MILA's website <http://www.mila.cs.technion.ac.il/eng/resources_corpora_haknesset.html>`_.
+
+Zenodo mirror: `https://zenodo.org/record/2707356 <https://zenodo.org/record/2707356>`_
     
     
 License
