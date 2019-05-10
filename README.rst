@@ -1,6 +1,6 @@
 The Knesset Meetings Corpus 2004-2005
 =====================================
-|DOI| |LICENCE|
+|DOI| |LICENCE| |PUBDOM|
 
 
 A corpus of session protocols of the Knesset (Israeli parliament) between January 2004 and November 2005.
@@ -70,13 +70,12 @@ License
 -------
 
 All Knesset meeting protocols are in the `public domain <https://en.wikipedia.org/wiki/Public_domain>`_ (`רשות הציבור <https://he.wikipedia.org/wiki/%D7%A8%D7%A9%D7%95%D7%AA_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8>`_) by law. These files are thus in the public doamin and do not require any license or public domain dedication to set their status.
-  
-.. |LICENCE| image:: https://github.com/NLPH/knesset-2004-2005/blob/master/public_domain.png
-   :target: https://en.wikipedia.org/wiki/Public_domain
-  
 
 .. |DOI| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.2707356.svg
-   :target: https://zenodo.org/record/2707356
-  
-.. .. |DOI| [![DOI:10.1007/978-3-319-76207-4_15](https://zenodo.org/badge/DOI/10.1007/978-3-319-76207-4_15.svg)](https://doi.org/10.1007/978-3-319-76207-4_15)
+   :target: https://doi.org/10.5281/zenodo.2707356
 
+.. |LICENCE| image:: https://github.com/NLPH/knesset-2004-2005/blob/master/public_domain_shield.svg
+   :target: https://en.wikipedia.org/wiki/Public_domain
+
+.. |PUBDOM| image:: https://github.com/NLPH/knesset-2004-2005/blob/master/public_domain.png
+   :target: https://en.wikipedia.org/wiki/Public_domain
