@@ -1,20 +1,31 @@
-Knesset Meetings 2004-2005
-==========================
+The Knesset Meetings Corpus 2004-2005
+=====================================
 |LICENCE|
 
-A corpus of transcriptions of Knesset (Israeli parliament) meetings between January 2004 and November 2005.
+A corpus of session protocols of the Knesset (Israeli parliament) between January 2004 and November 2005.
 
 
 Contents
 --------
 
-* ``kneset.tar.gz`` - An archive of raw text files (encoded using the ``windows-1255`` encoding), which can be found in this repository, divided into two folders:
+The Knesset Meetings Corpus 2004-2005 is made up of two components:
 
-  * ``16`` - Contains 164 text files made up of 543,228 lines together.
+* Raw texts - 282 files (encoded using the ``windows-1255`` encoding) made up of 867,725 lines together. These can be downloaded in two ways:
+
+  * ``kneset.tar.gz`` - An archive of the raw text files, divided into two folders:
+
+    * ``16`` - Contains 164 text files made up of 543,228 lines together.
   
-  * ``17`` - Contains 118 text files made up of 324,497 lines together.
+    * ``17`` - Contains 118 text files made up of 324,497 lines together.
+ 
+ * Each folder is also zipped separately into the ``kneset16.zip`` and the ``kneset17.zip`` files.
+ 
+* Tokenized and morphologically tagged texts - Tagged versions exist only for the files in the ``16`` folder. The text are represented using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_. These can be downloaded in two ways:
 
-* ``knesset_tagged_16.tar.gz`` - An archive of tokenized and morphologically tagged XML versions of all files in the ``16`` folder. The text are represented using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_. The unarchived version of these files can be found in this repository, under the ``knesset_tagged`` folder.
+  * ``knesset_tagged_16.tar.gz`` - An archive of all tokenized and tagged files.
+  
+  * By cloning this repository, as the unarchived version of these files can be found in this repository, under the ``knesset_tagged`` folder.
+
 
 Use
 ---
@@ -29,6 +40,11 @@ For example, you can process these files using Python with the following code:
   with open(fpath, 'rt', encoding='windows-1255') as f:
     line = f.readline()
     # or with "for line in f", etc...
+    
+Mirrors
+-------
+
+This repository is a mirror of this dataset `found on MILA's website <http://www.mila.cs.technion.ac.il/eng/resources_corpora_haknesset.html>`_.
     
     
 License
