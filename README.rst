@@ -31,7 +31,7 @@ The Knesset Meetings Corpus 2004-2005 is made up of two components:
     
     * ``knesset_txt_17.zip`` - Contains 118 text files made up of 324,497 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/utf8/knesset_txt_17.zip>`_ `[Github Mirror] <https://github.com/NLPH/knesset-2004-2005/blob/master/knesset_txt_17.zip?raw=true>`_
  
-* Tokenized and morphologically tagged texts - Tagged versions exist only for the files in the ``16`` folder. The text are represented using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_. These can be downloaded in two ways:
+* Tokenized and morphologically tagged texts - Tagged versions exist only for the files in the ``16`` folder. The texts are encoded using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_. These can be downloaded in two ways:
 
   * ``knesset_tagged_16.tar.gz`` - An archive of all tokenized and tagged files. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/tagged/knesset_tagged_16.tar.gz>`_ `[Archive.org mirror] <https://archive.org/details/knesset_transcripts_2004_2005>`_
   
