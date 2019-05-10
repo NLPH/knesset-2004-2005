@@ -1,6 +1,6 @@
 The Knesset Meetings Corpus 2004-2005
 =====================================
-|LICENCE| [![DOI:10.1007/978-3-319-76207-4_15](https://zenodo.org/badge/DOI/10.1007/978-3-319-76207-4_15.svg)](https://doi.org/10.1007/978-3-319-76207-4_15)
+|LICENCE|
 
 
 A corpus of session protocols of the Knesset (Israeli parliament) between January 2004 and November 2005.
@@ -41,7 +41,15 @@ The Knesset Meetings Corpus 2004-2005 is made up of two components:
 Use
 ---
 
-Reading the raw text files requires using a software supporting the ``windows-1255`` encoding.
+``txt`` format
+--------------
+
+These can be processed like any simple text file.
+
+``doc`` format
+--------------
+
+Reading the ``doc``-formatted raw text files requires using a software supporting the ``windows-1255`` encoding.
 
 For example, you can process these files using Python with the following code:
 
