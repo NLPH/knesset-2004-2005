@@ -1,6 +1,7 @@
 The Knesset Meetings Corpus 2004-2005
 =====================================
-|LICENCE| |DOI|
+|LICENCE| [![DOI:10.1007/978-3-319-76207-4_15](https://zenodo.org/badge/DOI/10.1007/978-3-319-76207-4_15.svg)](https://doi.org/10.1007/978-3-319-76207-4_15)
+
 
 A corpus of session protocols of the Knesset (Israeli parliament) between January 2004 and November 2005.
 
