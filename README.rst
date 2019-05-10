@@ -1,6 +1,6 @@
 The Knesset Meetings Corpus 2004-2005
 =====================================
-|LICENCE|
+|LICENCE| 
 
 A corpus of session protocols of the Knesset (Israeli parliament) between January 2004 and November 2005.
 
@@ -14,9 +14,9 @@ The Knesset Meetings Corpus 2004-2005 is made up of two components:
 
   * As ``doc`` files, encoded using ``windows-1255`` encoding:
 
-    * ``kneset16.zip`` - Contains 164 text files made up of 543,228 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/docs/kneset16.zip>`_
+    * ``kneset16.zip`` - Contains 164 text files made up of 543,228 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/docs/kneset16.zip>`_ `[NLPH Mirror] <https://github.com/NLPH/knesset-2004-2005/blob/master/kneset16.zip?raw=true>`_
   
-    * ``kneset17.zip`` - Contains 118 text files made up of 324,497 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/docs/kneset17.zip>`_
+    * ``kneset17.zip`` - Contains 118 text files made up of 324,497 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/docs/kneset17.zip>`_ `[NLPH Mirror] <https://github.com/NLPH/knesset-2004-2005/blob/master/kneset17.zip?raw=true>`_
   
   * As ``txt`` files, encoded using ``utf8`` encoding:
 
@@ -28,7 +28,7 @@ The Knesset Meetings Corpus 2004-2005 is made up of two components:
     
     * ``knesset_txt_16.tar.gz``- Contains 164 text files made up of 543,228 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/utf8/knesset_txt_16.tar.gz>`_
     
-    * ``knesset_txt_17.zip`` - Contains 118 text files made up of 324,497 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/utf8/knesset_txt_17.zip>_`
+    * ``knesset_txt_17.zip`` - Contains 118 text files made up of 324,497 lines together. `[MILA host] <http://yeda.cs.technion.ac.il:8088/corpus/software/corpora/knesset/txt/utf8/knesset_txt_17.zip>`_
  
 * Tokenized and morphologically tagged texts - Tagged versions exist only for the files in the ``16`` folder. The text are represented using `MILA's XML schema for corpora <http://www.mila.cs.technion.ac.il/eng/resources_standards.html>`_. These can be downloaded in two ways:
 
@@ -66,3 +66,6 @@ All Knesset meeting protocols are in the `public domain <https://en.wikipedia.or
   :height: 100px
   :scale: 20 %
   :target: https://en.wikipedia.org/wiki/Public_domain
+  
+.. |DOI| [![DOI:10.1007/978-3-319-76207-4_15](https://zenodo.org/badge/DOI/10.1007/978-3-319-76207-4_15.svg)](https://doi.org/10.1007/978-3-319-76207-4_15)
+
